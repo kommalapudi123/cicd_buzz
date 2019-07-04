@@ -14,7 +14,7 @@ pipeline {
  		}
  		stage('env creation') {
  			steps {
- 				sh ('virtualen venv')
+ 				sh ('virtualenv venv')
  			}
  		}
  		stage('install requirements') {
