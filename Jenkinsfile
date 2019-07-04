@@ -14,11 +14,11 @@ pipeline {
  		}
  		stage('env creation') {
  			steps {
- 				sh ('virtualenv venv')
+ 				sh ('virtualen venv')
  			}
  		}
  		stage('install requirements') {
- 			steps {
+ 			steps {i
  				sh ('pip install -r requirements.txt')
  			}
  		}
